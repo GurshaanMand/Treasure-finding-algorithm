@@ -1,15 +1,4 @@
-/**
- * CaveExplore class
- *
- * COMP 1020 SECTION A02
- * INSTRUCTOR Hamid Mansoor
- * ASSIGNMENT Assignment 05, question 2
- * 
- * @author Gurshaan Mand, #8037043
- * @version April 11, 2025
- *
-  * PURPOSE: Simulates navigating through a cave using a pathfinding algorithm and tracks the explorer’s movement.
-*/
+//PURPOSE: Simulates navigating through a cave using a pathfinding algorithm and tracks the explorer’s movement.
 
 import java.util.ArrayList;
 
@@ -89,7 +78,6 @@ public class CaveExplorer {
     }
 
     public static void displayCave(char[][] layout) {
-        //TODO: Implement a method to print the 2D array representing the cave
         //printing the lkayout with mda's
         for(int i = 0; i < layout.length; i++){
             for(int j = 0; j < layout[i].length; j++){
@@ -204,7 +192,6 @@ interface PathStack {
     boolean isEmpty();//check if its empty 
 }
 
-// TODO: Implement PathStackLL using a linked list that implements PathStack interface
 
 class PathStackLL implements PathStack{
 
